@@ -1,0 +1,24 @@
+{
+  "name": "leap-dev-lem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"webpack --watch\" \"live-server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audiofile": "^1.1.1",
+    "leapjs": "^0.6.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "concurrently": "^3.5.1",
+    "live-server": "^1.2.0"
+  }
+}
